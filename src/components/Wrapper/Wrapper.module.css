@@ -2,4 +2,6 @@
     max-width: 1120px;
     margin: 0 auto;
     box-sizing: border-box;
+    position: relative;
+    height: 100%;
 }
