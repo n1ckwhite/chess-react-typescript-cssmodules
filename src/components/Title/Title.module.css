@@ -1,0 +1,23 @@
+.title {
+    margin: 78px 0 0 0;
+    color: #fff;
+    background: #5036E6;
+    text-transform: uppercase;
+    -webkit-border-top-right-radius: 100%;
+    -webkit-border-bottom-right-radius: 100%;
+    -moz-border-radius-topright: 100%;
+    -moz-border-radius-bottomright: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    max-width: 84px;
+    min-height: 50px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 90%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
