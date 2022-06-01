@@ -11,6 +11,7 @@ import {Text} from "./components/Text";
 import styles from './components/Text/Text.module.css';
 import {DeskIcon} from "./components/DeskIcon";
 import {Team} from "./components/Team";
+import {RequestTeam} from "./components/RequestTeam";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         </Header>
         <main className="content">
            <Team/>
+            <RequestTeam/>
         </main>
     </div>
   );
