@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import {Promo} from "./components/Promo";
 import {Wrapper} from "./components/Wrapper";
+import {Header} from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-        <Promo>
-            <Wrapper>
+        <Header>
+        <Wrapper>
+        </Wrapper>
+        </Header>
 
-            </Wrapper>
-        </Promo>
     </div>
   );
 }
