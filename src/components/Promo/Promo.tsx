@@ -5,10 +5,10 @@ interface HTMLElement {
     children: any;
 }
 
-export const Promo: React.FC<HTMLElement> = (props) => {
+export const Promo: React.FC<HTMLElement> = ({children}) => {
     return (
         <div className={styles.Promo}>
-            {props.children}
+            {children}
         </div>
     )
 }
