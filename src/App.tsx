@@ -10,6 +10,7 @@ import {Title} from "./components/Title";
 import {Text} from "./components/Text";
 import styles from './components/Text/Text.module.css';
 import {DeskIcon} from "./components/DeskIcon";
+import {Team} from "./components/Team";
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
             <DeskIcon src={desk} alt="desk"/>
         </Wrapper>
         </Header>
-
+        <main className="content">
+           <Team/>
+        </main>
     </div>
   );
 }
