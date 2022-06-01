@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import {Promo} from "./components/Promo";
 
 function App() {
   return (
     <div className="App">
-     <h1>totle</h1>
+        <Promo>
+        </Promo>
     </div>
   );
 }
