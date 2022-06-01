@@ -3,6 +3,7 @@ import './App.css';
 import {Wrapper} from "./components/Wrapper";
 import {Header} from "./components/Header";
 import {Menu} from "./components/Menu";
+import {Links} from "./components/Links";
 import logo from './img/logo.svg';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Wrapper>
             <Menu>
                 <img src={logo} alt="logo"/>
+                <Links/>
             </Menu>
         </Wrapper>
         </Header>
