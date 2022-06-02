@@ -1,0 +1,27 @@
+.icon {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+}
+
+.icon_r {
+    left: auto;
+    right: 160px;
+}
+
+@media screen and (max-width: 1150px) {
+    .icon_r {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icon {
+        width: 280px;
+        bottom: 20px;
+    }
+
+    .icon_r {
+        right: 20px;
+    }
+}

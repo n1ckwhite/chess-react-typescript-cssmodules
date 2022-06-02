@@ -1,0 +1,21 @@
+.wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .wrapper {
+        max-width: 668px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 280px;
+        min-height: auto;
+    }
+}

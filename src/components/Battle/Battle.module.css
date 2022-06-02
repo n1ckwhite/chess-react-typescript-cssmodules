@@ -1,0 +1,20 @@
+.battle {
+    padding: 80px 160px 260px 160px;
+    position: relative;
+    box-sizing: border-box;
+    background: #000000 url(../../img/bool.svg) left bottom no-repeat;
+}
+
+@media screen and (max-width: 1150px) {
+    .battle {
+        padding: 50px 50px 320px 50px;
+        background: #000000 url(../../img/bool.svg) calc(100% - 548px) bottom no-repeat;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .battle {
+        padding: 20px 20px 156px 20px;
+
+    }
+}

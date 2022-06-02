@@ -1,0 +1,51 @@
+.textBlock {
+    margin: 0;
+    max-width: 500px;
+    color: #fff;
+}
+
+.textBlock_mt80 {
+    margin-top: 70px;
+}
+
+.textTitle {
+    margin: 0;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 90%;
+    color: #FFFFFF;
+
+}
+
+.textDescr {
+    margin: 0;
+    margin-top: 40px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 768px) {
+    .textBlock {
+        max-width: 280px;
+    }
+    .textTitle {
+        font-size: 40px;
+    }
+
+    .textDescr {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .textBlock_mt80 {
+        margin-top: 60px;
+    }
+
+}
