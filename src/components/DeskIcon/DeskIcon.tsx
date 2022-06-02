@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./DeskIcon.module.css";
+import classNames from "classnames";
 
 interface HTMLImageElement {
     src: string,
-    alt: string;
+    alt: string,
+    mod?: string | undefined;
 }
 
-export const DeskIcon: React.FC<HTMLImageElement> = ({src,alt}) => {
-    return <img src={src} alt={alt} className={styles.icon}/>
+export const DeskIcon: React.FC<HTMLImageElement> = ({src,alt,mod}) => {
+    return <img src={src} alt={alt} className={classNames(styles.icon, mod)}/>
 }

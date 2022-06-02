@@ -1,0 +1,7 @@
+.battle {
+    padding: 80px 160px 260px 160px;
+    position: relative;
+    box-sizing: border-box;
+    background: #000000 url(../../img/bool.svg) left bottom no-repeat;
+}
+

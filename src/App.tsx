@@ -12,6 +12,7 @@ import styles from './components/Text/Text.module.css';
 import {DeskIcon} from "./components/DeskIcon";
 import {Team} from "./components/Team";
 import {RequestTeam} from "./components/RequestTeam";
+import {Battle} from "./components/Battle";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <main className="content">
            <Team/>
             <RequestTeam/>
+            <Battle/>
         </main>
     </div>
   );

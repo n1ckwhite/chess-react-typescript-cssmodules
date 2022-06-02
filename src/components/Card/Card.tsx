@@ -4,8 +4,8 @@ import styles from './Card.module.css';
 interface HTMLElement {
     src: string,
     alt: string,
-    name: string,
-    text: string;
+    name?: string,
+    text?: string;
 }
 
 export const Card: React.FC<HTMLElement> = ({src,alt,name,text}) => {

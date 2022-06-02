@@ -3,3 +3,8 @@
     left: 0;
     bottom: 80px;
 }
+
+.icon_r {
+    left: auto;
+    right: 160px;
+}
