@@ -1,0 +1,39 @@
+.footer {
+    background: #5036E6;
+    padding: 80px 0;
+}
+
+.footerlogo {
+    margin-bottom: 60px;
+}
+
+.footertxt {
+    color: #fff;
+    margin: 0;
+    margin-top: 60px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.footercopy {
+    margin: 0;
+    margin-top: 20px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.1px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E9199;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
