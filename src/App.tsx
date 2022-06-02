@@ -13,6 +13,7 @@ import {DeskIcon} from "./components/DeskIcon";
 import {Team} from "./components/Team";
 import {RequestTeam} from "./components/RequestTeam";
 import {Battle} from "./components/Battle";
+import {Footer} from "./components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <RequestTeam/>
             <Battle/>
         </main>
+        <Footer/>
     </div>
   );
 }
