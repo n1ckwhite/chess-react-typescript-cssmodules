@@ -30,3 +30,22 @@
     color: #FFFFFF;
 
 }
+
+@media screen and (max-width: 768px) {
+    .textBlock {
+        max-width: 280px;
+    }
+    .textTitle {
+        font-size: 40px;
+    }
+
+    .textDescr {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .textBlock_mt80 {
+        margin-top: 60px;
+    }
+
+}

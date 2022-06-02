@@ -11,3 +11,8 @@
     margin-top: 110px;
 }
 
+@media screen and (max-width: 768px) {
+    .cardWrapper {
+        margin-top: 60px;
+    }
+}
