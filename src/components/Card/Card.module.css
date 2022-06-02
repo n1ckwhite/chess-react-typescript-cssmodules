@@ -3,7 +3,7 @@
     margin-right: 80px;
 }
 
-.card:last-child {
+.card:last-of-type {
     margin-right: 0;
 }
 
