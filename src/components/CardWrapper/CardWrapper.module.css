@@ -1,0 +1,18 @@
+.cardWrapper {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+    align-items: center;
+    color: #fff;
+    margin-top: 110px;
+}
+
+@media screen and (max-width: 768px) {
+    .cardWrapper {
+        margin-top: 60px;
+    }
+}

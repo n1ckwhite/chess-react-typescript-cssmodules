@@ -1,0 +1,18 @@
+.request {
+    padding: 171px 0 171px 760px;
+    background: #5036E6 url(../../img/bools_green.svg) left 60px no-repeat;
+}
+
+@media screen and (max-width: 1150px) {
+    .request {
+        background: #5036E6 url(../../img/bools_green.svg) calc(100% - 550px) 50px no-repeat;
+        padding: 121px 0 50px calc(100% - 528px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .request {
+        background: #5036E6 url(../../img/bool.svg) bottom center no-repeat;
+        padding: 20px 20px 252px 20px;
+    }
+}
